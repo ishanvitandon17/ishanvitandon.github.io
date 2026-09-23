@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+	<title>JavaScript Example: Image Switching</title>
+</head>
+
+<body>
+	
+	<p>Click the button to get Jack to look at you!</p>
+	<img src="images/dog.jpg" id="toChange" width="480"></img>
+	<br>
+	<br>
+
+	<button onclick="clickFunction()">Click me</button>
+	<script>
+	function clickFunction() {
+		document.getElementById("toChange").src = "images/dog2.jpg";
+	}
+	</script>
+
+</body>
